@@ -10,8 +10,11 @@ virtualenv venv
 source venv/bin/activate
 
 pip install django
+
 pip install channels
+
 python -m pip install -U channels
+
 python -m pip install -U daphne
 
 #after installation cd /path/to/project/channels/ and migrate and create databases 
