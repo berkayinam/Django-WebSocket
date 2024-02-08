@@ -24,7 +24,7 @@ python -m pip install -U channels
 
 python -m pip install -U daphne
 
-#after installation cd /path/to/project/channels/ and migrate and create databases 
+#after installation cd /path/to/project/channels/ we can migrate for databases 
 
 
 python manage.py makemigrations
